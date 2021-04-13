@@ -1,0 +1,16 @@
+#include<stdio.h>
+void print(int n)
+{
+	if(n>9)
+	{
+		print(n/10);反复调用直到n=12,调到printf函数
+	}
+	printf("%d ",n%10);
+}
+int main()
+{
+     unsigned int num = 0;//unsigned表示无符整型
+     scanf("%d",&num);
+     print(num);
+	return 0;
+ } 
