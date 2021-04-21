@@ -3,7 +3,7 @@ int main()
 {
     char arr[] = "abcdef";
     int i = 0;
-    for(i=0; i<6; i++)//strlen(arr)=6
+    for(i=0; i<5; i++)//strlen(arr)=6
     {
     	printf("%c ",arr[i]);
 	}
