@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main()
 {
-printf("hehe\n");
-return 0;
+	int a = 3;
+	int b = 5;
+	int c = a&b;
+	printf("%d\n", c);
+	return 0;
 }
