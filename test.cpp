@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	int a = 3;
-	int b = 5;
-	int c = a&b;
-	printf("%d\n", c);
+    char arr[] = "abcdef";
+    int i = 0;
+    for(i=0; i<6; i++)//strlen(arr)=6
+    {
+    	printf("%c ",arr[i]);
+	}
 	return 0;
-}
+} 
